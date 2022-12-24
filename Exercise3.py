@@ -14,6 +14,7 @@ max = (my_list[1] % 1)
 
 if my_list[0] % 1 > my_list[1] % 1:
     max = my_list[0] % 1
+    min = my_list[1] % 1
 for i in range(2, len(my_list)):
     if my_list[i] % 1 > max:
         max = my_list[i] % 1
